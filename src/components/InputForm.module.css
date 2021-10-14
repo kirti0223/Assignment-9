@@ -1,0 +1,34 @@
+.todo-input input {
+  display: block;
+  font-size: 1.8rem;
+  border: 1px solid #ccc;
+  width: 98%;
+}
+.todo-input input:focus {
+  outline: none;
+}
+
+.todo-input label {
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.todo-input button {
+  background: none;
+  border: 2px solid black;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  display: block;
+  color: black;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.todo-input button:hover {
+  background-color: black;
+  color: rgb(245, 4, 97);
+}
